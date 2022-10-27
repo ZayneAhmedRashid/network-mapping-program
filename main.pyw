@@ -29,7 +29,7 @@ def launcher():
         layout = [
             # Start of header, consistant on each window.
             [sg.Button("←", font="Helvetica 14", disabled=True), sg.Push()],
-            [sg.Push(), sg.Image(r"logo.png"), sg.Push()],
+            [sg.Push(), sg.Image(r"images/logo.png"), sg.Push()],
             [
                 sg.Push(), # For element alignment (horizontal).
                 sg.Text("NETWORK MAP INC. THREAT DETECTION", font="Helvetica 20"),
@@ -108,7 +108,7 @@ def launcher():
     def make_pcap_window(): # Appears when the "PCAP" button on the main window is pressed.
         layout = [
             [sg.Button("←", font="Helvetica 14"), sg.Push()], # Back button - loads the main window when pressed and resets local and global variables.
-            [sg.Push(), sg.Image(r"logo.png"), sg.Push()],
+            [sg.Push(), sg.Image(r"images/logo.png"), sg.Push()],
             [
                 sg.Push(),
                 sg.Text("NETWORK MAP INC. THREAT DETECTION", font="Helvetica 20"),
@@ -216,7 +216,7 @@ def launcher():
     def make_csv_window(): # Appears when the "CSV" button on the main window is pressed.
         layout = [
             [sg.Button("←", font="Helvetica 14"), sg.Push()],
-            [sg.Push(), sg.Image(r"logo.png"), sg.Push()],
+            [sg.Push(), sg.Image(r"images/logo.png"), sg.Push()],
             [
                 sg.Push(),
                 sg.Text("NETWORK MAP INC. THREAT DETECTION", font="Helvetica 20"),
@@ -345,7 +345,7 @@ def launcher():
         use_suricata_rev = not use_suricata
         layout = [
             [sg.Button("←", font="Helvetica 14"), sg.Push()],
-            [sg.Push(), sg.Image(r"logo.png"), sg.Push()],
+            [sg.Push(), sg.Image(r"images/logo.png"), sg.Push()],
             [
                 sg.Push(),
                 sg.Text("NETWORK MAP INC. THREAT DETECTION", font="Helvetica 20"),
